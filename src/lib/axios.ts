@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: 'http://localhost:11337'
+  baseURL: 'https://habits-app-server.onrender.com'
 })
